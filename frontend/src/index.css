@@ -1,0 +1,137 @@
+/* Global styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  background: #0d0f1a;
+  color: #e0e0e0;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+h1, h2, h3 {
+  font-family: 'Orbitron', sans-serif;
+}
+
+h1, h2, h3 {
+  color: #a873ff;
+  text-align: center;
+}
+
+/* Cyberpunk neon button */
+button {
+  font-size: 16px;
+  color: #fff;
+  padding: 10px 20px;
+  background-color: #ff3c8b;
+  border: 2px solid #ff3c8b;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  box-shadow: 0 0 10px #ff3c8b, 0 0 40px #ff3c8b, 0 0 80px #ff3c8b;
+  transition: 0.3s;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #0d0f1a;
+  box-shadow: 0 0 20px #ff3c8b, 0 0 60px #ff3c8b, 0 0 100px #ff3c8b;
+}
+
+input[type="text"], input[type="password"], input[type="email"] {
+  background-color: #252836;
+  border: 2px solid #a873ff;
+  padding: 10px;
+  font-size: 14px;
+  color: #fff;
+  width: 100%;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #a873ff;
+}
+
+input:focus {
+  outline: none;
+  border-color: #ff3c8b;
+  box-shadow: 0 0 10px #ff3c8b, 0 0 40px #ff3c8b;
+}
+
+/* Form container */
+form {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 15px #ff3c8b, 0 0 40px #a873ff;
+  max-width: 400px;
+  margin: auto;
+}
+
+.todo-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.todo-item {
+  background-color: #252836;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid #a873ff;
+  box-shadow: 0 0 10px #a873ff;
+}
+
+.todo-item button {
+  background: none;
+  border: none;
+  color: #ff3c8b;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.todo-item button:hover {
+  color: #ff89cb;
+  text-shadow: 0 0 10px #ff89cb;
+}
+
+header {
+  background-color: #0d0f1a;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 0 0 10px #a873ff, 0 0 40px #ff3c8b;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #252836;
+  border-bottom: 2px solid #ff3c8b;
+}
+
+nav a {
+  color: #ff3c8b;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+nav a:hover {
+  color: #ff89cb;
+  text-shadow: 0 0 10px #ff89cb;
+}
+
+/* Footer styles */
+footer {
+  background-color: #0d0f1a;
+  padding: 20px;
+  text-align: center;
+  border-top: 2px solid #ff3c8b;
+}
+
+footer p {
+  color: #a873ff;
+}

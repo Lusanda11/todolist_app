@@ -1,0 +1,21 @@
+.todo-list {
+  list-style: none;
+  padding: 0;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.neon-todo-item {
+  background: rgba(0, 255, 255, 0.1); /* Transparent cyan background */
+  border: 1px solid #0ff; /* Neon cyan border */
+  padding: 0.5rem;
+  border-radius: 5px;
+  margin: 0.5rem 0;
+  color: #fff; /* White text */
+  text-shadow: 0 0 5px #00fff9;
+  transition: background 0.3s ease;
+}
+
+.neon-todo-item:hover {
+  background: rgba(0, 255, 255, 0.2); /* Darker when hovered */
+}

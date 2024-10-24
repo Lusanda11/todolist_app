@@ -1,0 +1,47 @@
+/* Header.css */
+
+/* General Styles */
+body {
+  background-color: #1a1a2e; /* Dark background */
+  color: #e94560; /* Bright text color */
+}
+
+/* Navbar Styles */
+header {
+  position: relative;
+}
+
+.navbar {
+  background: rgba(0, 0, 0, 0.8); /* Semi-transparent black */
+  border: none; /* Remove borders */
+  backdrop-filter: blur(10px); /* Blurred background for depth */
+}
+
+.nav-link {
+  color: #e94560; /* Neon pink color */
+  text-shadow: 0 0 5px #e94560, 0 0 10px #e94560; /* Neon glow effect */
+  transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.nav-link:hover {
+  color: #ffffff; /* Change text color on hover */
+  text-shadow: 0 0 10px #ffffff, 0 0 20px #ffffff; /* Enhanced glow on hover */
+}
+
+.navbar-brand {
+  color: #0f3460; /* Darker color for the brand */
+  font-family: 'Orbitron', sans-serif; /* Futuristic font */
+  font-size: 1.5rem; /* Increase brand font size */
+  text-shadow: 0 0 5px #0f3460, 0 0 10px #0f3460; /* Glow effect */
+}
+
+.container-fluid {
+  padding: 1rem; /* Padding for navbar */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column; /* Stack items vertically */
+  }
+}
