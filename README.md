@@ -33,7 +33,7 @@ Make sure you have the following installed on your system:
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/Lusanda11/todo-app.git
+git clone https://github.com/Lusanda11/todolist_app.git
 cd todo-app
 ```
 ## Install Dependencies
